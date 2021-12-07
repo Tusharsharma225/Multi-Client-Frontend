@@ -13,6 +13,6 @@ bat "npm run build"
 }
 
 stage('Deploy'){
-    bat "npm run ng -- build "
+    bat "npm run ng -- build"
  }
 }
