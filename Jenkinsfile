@@ -9,10 +9,10 @@ bat "npm install"
 
 
 stage('Build'){
-bat "npm run build:ssr"
+bat "npm run-scipt build"
 }
 
 stage('Deploy'){
-    bat "pm2 restart all"
+    bat "ng serve -o"
  }
 }
