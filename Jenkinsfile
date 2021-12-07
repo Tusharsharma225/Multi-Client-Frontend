@@ -13,6 +13,6 @@ bat "npm run build"
 }
 
 stage('Deploy'){
-    bat "npm run ng -- build --port 4300"
+    bat "npm run ng serve"
  }
 }
