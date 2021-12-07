@@ -9,7 +9,7 @@ bat "npm install"
 
 
 stage('Build'){
-bat "npm run-scipt build"
+bat "npm run build"
 }
 
 stage('Deploy'){
