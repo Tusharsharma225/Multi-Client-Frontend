@@ -4,7 +4,7 @@ git branch: 'master', url: 'https://github.com/Tusharsharma225/Multi-Client-Fron
 }
 
 stage('Install node modules'){
-bat "npm install"
+bat "npm install -g @angular/cli"
 }
 
 
